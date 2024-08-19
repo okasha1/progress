@@ -19,11 +19,16 @@ Widget progress(String courseName, double progress) {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 8.0),
-            child: ProgressBar(
-              value: progress,
-              //specify only one: color or gradient
-              color: Colors.blue,
-              backgroundColor: Colors.grey,
+            child: Row(
+              children: [
+                ProgressBar(
+                  value: progress,
+                  //specify only one: color or gradient
+                  color: Colors.blue,
+                  backgroundColor: Colors.grey,
+                ),
+                Text('${progress * 100}%')
+              ],
             ),
           ),
         ],

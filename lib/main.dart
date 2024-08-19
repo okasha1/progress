@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:progress/pages/congrats_page.dart';
+import 'package:progress/pages/congrats_bronze.dart';
 import 'package:progress/pages/homepage.dart';
 import 'package:progress/provider/provider.dart';
 import 'package:provider/provider.dart';
